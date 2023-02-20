@@ -41,9 +41,19 @@ body{
 }
 #logo{
     float: left;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-right: 20px;
-    margin-left: 15px;
+    margin-bottom: 10px;
 }
+p{
+    text-align: justify;
+    font-size: 18px;
+}
+header p::first-letter
+{
+    font-size: 40px;
+}
+
+
  
