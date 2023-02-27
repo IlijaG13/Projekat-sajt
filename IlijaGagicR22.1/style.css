@@ -54,6 +54,25 @@ header p::first-letter
 {
     font-size: 40px;
 }
+figure{
+    text-align: center;
+
+}
+
+main{
+    padding: 10px;
+}
+
+figure img{
+    height: 25%;
+    width: 25%;
+    margin: 5px auto;
+    display: block;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 
 
  
