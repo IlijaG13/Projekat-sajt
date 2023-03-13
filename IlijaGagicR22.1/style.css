@@ -8,7 +8,8 @@ ul li{
     float: left;
     line-height: 100px;
     line-height: 60px;
-    width: 25%;
+    width: 250px;
+    position: relative;
 }
 ul li a{
     text-decoration: none;
@@ -72,6 +73,14 @@ figure img{
 hr{
     margin-top: 10px;
     margin-bottom: 10px;
+}
+ul li ul{
+display: none;
+position: absolute;
+background-color: red;
+}
+ul li:hover ul{
+    display: block;
 }
 
 
