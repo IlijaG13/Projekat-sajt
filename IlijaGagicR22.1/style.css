@@ -84,4 +84,10 @@ ul li:hover ul{
 }
 
 
- 
+ form{
+     margin: 0 auto;
+     width: 300px;
+ }
+ fieldset{
+     padding: 10px 10px;
+ }
